@@ -20,10 +20,6 @@ const CardSlider = () => {
     {
       img: Image3,
       name: 'The New York Times'
-    },
-    {
-      img: Image1,
-      name: 'Times of India'
     }
   ];
 
