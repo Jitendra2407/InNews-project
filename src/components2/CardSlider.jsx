@@ -40,7 +40,7 @@ const CardSlider = () => {
       <div className="mt-14">
       <Slider {...settings}>
         {data.map((item) => (
-          <div className="bg-white h-[400px] text-black rounded-xl overflow-hidden">
+          <div className="bg-white h-[400px] text-black rounded-xl overflow-hidden transform transition-transform duration-300 hover:scale-105 cursor-pointer">
             <div className="rounded-t-xl h-[315px] bg-indigo-500 flex justify-center items-center">
               <img src={item.img} alt="" className="w-full h-full object-cover"/>
             </div>
