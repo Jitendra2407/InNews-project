@@ -1,0 +1,17 @@
+/* Header.module.css */
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #001111;
+  opacity: 88.63%;
+  height: 100px;
+  border-radius: 0 0 20px 20px;
+}
+
+.homeIcon {
+  margin-right: 15px;
+  font-size: 30px;
+  color: white;
+}
